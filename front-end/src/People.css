@@ -1,0 +1,21 @@
+#people {
+  background-color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+#people h2 {
+  font-weight: 600;
+}
+
+#profiles img {
+  width: 200px;
+  height: 200px;
+}
+
+.profile {
+  max-width: 300px; 
+  height: 300px;
+  display: inline-block;
+  margin: 3%;
+}

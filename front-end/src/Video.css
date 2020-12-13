@@ -1,0 +1,9 @@
+#movie {
+  background-color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+#movie h2 {
+  font-weight: 600;
+}

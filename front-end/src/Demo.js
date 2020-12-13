@@ -151,7 +151,7 @@ class Demo extends React.Component {
         <div className="cb"></div>
         <div className="arrow-result bounce"></div>
         <div className="audio-result">
-          <img class="new-music" src={NowPlaying} alt="music" />
+          <img className="new-music" src={NowPlaying} alt="music" />
           <br></br>
           <audio controls></audio>
         </div>
