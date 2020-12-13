@@ -7,3 +7,88 @@
 #demo h2 {
   font-weight: 600;
 }
+
+#music-select {
+  padding: 0 11%;
+}
+
+#style-select {
+  padding: 0 11%;
+}
+
+#select-box {
+  width: 300px;
+  height: 200px;
+  float: left;
+  text-align: center;
+}
+
+#select-box h3 {
+  margin: 4% auto;
+  font-weight: 600;
+}
+
+#music-box {
+  float: right;
+  width: 750px;
+}
+
+.image-wrapper {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 1%;
+}
+
+.btn {
+  margin: 5%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.select {
+  background-color: antiquewhite;
+}
+
+.on {
+  border: 3px outset grey;
+}
+
+.off {
+  filter: blur(1.5px);
+}
+
+.cb {
+  clear: both;
+}
+
+#cross-wrapper {
+  margin-left: 21%;
+}
+
+#cross2 {
+  display: inline-block;
+	width: 50px;
+  height: 50px;
+  margin: 2%;
+	position: relative;
+	cursor: pointer;
+}
+
+#cross2 span::before,
+#cross2 span::after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 84%;
+	height: 16%;
+	background: black;
+}
+#cross2 span::before {
+	transform: rotate(-45deg);
+}
+#cross2 span::after {
+	transform: rotate(45deg);
+}

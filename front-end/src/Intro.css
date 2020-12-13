@@ -21,6 +21,9 @@
 img {
   width: 150px;
   height: 150px;
+}
+
+#sample-img-1, #sample-img-2 {
   margin: 2%;
   display: inline-block;
 }

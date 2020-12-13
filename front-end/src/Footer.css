@@ -1,0 +1,25 @@
+footer {
+  position: relative;
+  overflow: hidden;
+  background-color: #1b1b1f;
+  height: 200px;
+  text-align: center;
+}
+
+#contact {
+  color: gainsboro;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  display: inline-block;
+}
+
+#right {
+  color: gainsboro;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  display: inline-block;
+}
