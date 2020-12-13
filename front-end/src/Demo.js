@@ -1,5 +1,6 @@
 import React from 'react'
 import MyOnlyWish from './my_only_wish.jpg';
+import NowPlaying from './now_playing.gif';
 import './Demo.css';
 
 class Demo extends React.Component {
@@ -146,7 +147,13 @@ class Demo extends React.Component {
               <p>My Only Wish</p>
             </div>
           </div>
-          <div className="cb"></div>
+        </div>
+        <div className="cb"></div>
+        <div className="arrow-result bounce"></div>
+        <div className="audio-result">
+          <img class="new-music" src={NowPlaying} alt="music" />
+          <br></br>
+          <audio controls></audio>
         </div>
       </div>
     )
