@@ -89,6 +89,9 @@ class Demo extends React.Component {
             <div className="btn">
               <h3>Upload your own music ♫</h3>
             </div>
+            <div>
+              <audio controls></audio>
+            </div>
           </div>
           <div id="music-box">
             <div id="music-0" className={this.state.mframe[0]} onClick={() =>this.handleClickMusic(0)}>
@@ -120,6 +123,9 @@ class Demo extends React.Component {
             </div>
             <div className="btn">
               <h3>Upload your own style ♬</h3>
+            </div>
+            <div>
+              <audio controls></audio>
             </div>
           </div>
           <div id="music-box">
