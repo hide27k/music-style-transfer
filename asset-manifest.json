@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/music-style-transfer/static/css/main.e6698ae4.chunk.css",
-    "main.js": "/music-style-transfer/static/js/main.17cf451d.chunk.js",
-    "main.js.map": "/music-style-transfer/static/js/main.17cf451d.chunk.js.map",
+    "main.js": "/music-style-transfer/static/js/main.186325dc.chunk.js",
+    "main.js.map": "/music-style-transfer/static/js/main.186325dc.chunk.js.map",
     "runtime-main.js": "/music-style-transfer/static/js/runtime-main.7d345095.js",
     "runtime-main.js.map": "/music-style-transfer/static/js/runtime-main.7d345095.js.map",
     "static/js/2.3265f21a.chunk.js": "/music-style-transfer/static/js/2.3265f21a.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.7d345095.js",
     "static/js/2.3265f21a.chunk.js",
     "static/css/main.e6698ae4.chunk.css",
-    "static/js/main.17cf451d.chunk.js"
+    "static/js/main.186325dc.chunk.js"
   ]
 }
