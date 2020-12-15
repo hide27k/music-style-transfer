@@ -24,7 +24,7 @@
 }
 
 #select-box h3 {
-  margin: 4% auto;
+  margin: 30px auto 0 auto;
   font-weight: 600;
 }
 
@@ -37,7 +37,7 @@
   width: 150px;
   height: 150px;
   display: inline-block;
-  margin: 1%;
+  margin: 4%;
 }
 
 .btn {

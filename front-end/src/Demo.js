@@ -1,5 +1,9 @@
 import React from 'react'
 import MyOnlyWish from './my_only_wish.jpg';
+import TimeToLove from './time_to_love.jpg';
+import StayWithMe from './stay_with_me.jpg';
+import TimeToLoveNoiseless from './time_to_love_noiseless.wav';
+import StayWithMeNoiseless from './stay_with_me_noiseless.wav';
 import NowPlaying from './now_playing.gif';
 import './Demo.css';
 
@@ -12,31 +16,22 @@ class Demo extends React.Component {
       mframe: {
         0: "image-wrapper on",
         1: "image-wrapper",
-        2: "image-wrapper",
-        3: "image-wrapper"
+        2: "image-wrapper"
       },
       mblur: {
         0: "",
         1: "off",
-        2: "off",
-        3: "off"
+        2: "off"
       },
-      sframe: {
-        0: "image-wrapper on",
-        1: "image-wrapper",
-        2: "image-wrapper",
-        3: "image-wrapper"
-      },
-      sblur: {
-        0: "",
-        1: "off",
-        2: "off",
-        3: "off"
-      }
+      audio: TimeToLoveNoiseless,
+      title: "My Only Wish - Britney Spears"
     }
   }
 
   handleClickMusic(v) {
+    let titleList = ["My Only Wish - Britney Spears", "Time to Love - October", "Stay with me - Sam Smith"];
+    let audioList = [TimeToLoveNoiseless, TimeToLoveNoiseless, StayWithMeNoiseless];
+
     let newFrame = this.state.mframe;
     newFrame[this.state.music] = "image-wrapper";
     newFrame[v] = "image-wrapper on";
@@ -48,23 +43,12 @@ class Demo extends React.Component {
     this.setState({
       mframe: newFrame,
       mblur: newblur,
-      music: v
-    })
-  }
-
-  handleClickStyle(v) {
-    let newFrame = this.state.sframe;
-    newFrame[this.state.style] = "image-wrapper";
-    newFrame[v] = "image-wrapper on";
-
-    let newblur = this.state.sblur;
-    newblur[this.state.style] = "off";
-    newblur[v] = "";
-
-    this.setState({
-      sframe: newFrame,
-      sblur: newblur,
-      style: v
+      music: v,
+      audio: audioList[v],
+      title: titleList[v]
+    },function(){
+      this.refs.audio.pause();
+      this.refs.audio.load();
     })
   }
 
@@ -84,40 +68,39 @@ class Demo extends React.Component {
         </div>
         <div id="music-select" >
           <div id="select-box">
-            <div className="btn select">
+            <div className="">
               <h3>Choose your music ♫</h3>
             </div>
-            <div className="btn">
+            {/* <div className="btn">
               <h3>Upload your own music ♫</h3>
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <audio controls></audio>
-            </div>
+            </div> */}
           </div>
           <div id="music-box">
             <div id="music-0" className={this.state.mframe[0]} onClick={() =>this.handleClickMusic(0)}>
               <img className={this.state.mblur[0]} src={MyOnlyWish} alt="my only wish"/>
               <p>My Only Wish</p>
+              <p>Britney Spears</p>
             </div>
             <div id="music-1" className={this.state.mframe[1]} onClick={() =>this.handleClickMusic(1)}>
-              <img className={this.state.mblur[1]} src={MyOnlyWish} alt="my only wish"/>
-              <p>My Only Wish</p>
+              <img className={this.state.mblur[1]} src={TimeToLove} alt="my only wish"/>
+              <p>Time to love</p>
+              <p>October</p>
             </div>
             <div id="music-2" className={this.state.mframe[2]} onClick={() =>this.handleClickMusic(2)}>
-              <img className={this.state.mblur[2]} src={MyOnlyWish} alt="my only wish"/>
-              <p>My Only Wish</p>
-            </div>
-            <div id="music-3" className={this.state.mframe[3]} onClick={() =>this.handleClickMusic(3)}>
-              <img className={this.state.mblur[3]} src={MyOnlyWish} alt="my only wish"/>
-              <p>My Only Wish</p>
+              <img className={this.state.mblur[2]} src={StayWithMe} alt="my only wish"/>
+              <p>Stay with me</p>
+              <p>Sam Smith</p>
             </div>
           </div>
           <div className="cb"></div>
         </div>
-        <div id="cross-wrapper">
+        {/* <div id="cross-wrapper">
           <div id="cross2"><span></span></div>
-        </div>
-        <div id="style-select" >
+        </div> */}
+        {/* <div id="style-select" >
           <div id="select-box">
             <div className="btn select">
               <h3>Choose your style ♬</h3>
@@ -134,7 +117,7 @@ class Demo extends React.Component {
               <img className={this.state.sblur[0]} src={MyOnlyWish} alt="my only wish"/>
               <p>My Only Wish</p>
             </div>
-            <div id="style-1" className={this.state.sframe[1]} onClick={() =>this.handleClickStyle(1)}>
+            <div id="style-1" className={this.state.sfråame[1]} onClick={() =>this.handleClickStyle(1)}>
               <img className={this.state.sblur[1]} src={MyOnlyWish} alt="my only wish"/>
               <p>My Only Wish</p>
             </div>
@@ -147,13 +130,18 @@ class Demo extends React.Component {
               <p>My Only Wish</p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="cb"></div>
         <div className="arrow-result bounce"></div>
         <div className="audio-result">
+          <p>
+            {this.state.title}
+          </p>
           <img className="new-music" src={NowPlaying} alt="music" />
           <br></br>
-          <audio controls></audio>
+          <audio controls ref="audio">
+            <source src={this.state.audio} type="audio/wav" />
+          </audio>
         </div>
       </div>
     )
