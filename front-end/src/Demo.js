@@ -29,8 +29,8 @@ class Demo extends React.Component {
   }
 
   handleClickMusic(v) {
-    let titleList = ["My Only Wish - Britney Spears", "Time to Love - October", "Stay with me - Sam Smith"];
-    let audioList = [TimeToLoveNoiseless, TimeToLoveNoiseless, StayWithMeNoiseless];
+    let titleList = ["Time to Love - October", "Stay with me - Sam Smith"];
+    let audioList = [TimeToLoveNoiseless, StayWithMeNoiseless];
 
     let newFrame = this.state.mframe;
     newFrame[this.state.music] = "image-wrapper";
@@ -57,13 +57,8 @@ class Demo extends React.Component {
       <div id="demo">
         <h2>Music Style Transfer Demo</h2>
         <div className="description">
-                <p>We present our deep learning project Music Style Transfer that takes a song as
-          input, modifies it with a different style that was pre-trained with our model, and outputs a
-          modified version of the song. The model takes 50 samples (values of the amplitudes)
-          from the original song each time and outputs 50 values. After a series of consecutive
-          sampling and generating, it concatenates all the values and thus yields a version of the
-          song in a different style that still preserves the original melody, vocal, major instruments
-          used in the background, etc. as much as possible.
+          <p>
+            We accept any song to be transferred with our model that’s already trained with “My Only Wish.” Please upload a song of your choice in wav format here and wait for the output. 
           </p>
         </div>
         <div id="music-select" >
@@ -80,44 +75,45 @@ class Demo extends React.Component {
           </div>
           <div id="music-box">
             <div id="music-0" className={this.state.mframe[0]} onClick={() =>this.handleClickMusic(0)}>
-              <img className={this.state.mblur[0]} src={MyOnlyWish} alt="my only wish"/>
-              <p>My Only Wish</p>
-              <p>Britney Spears</p>
-            </div>
-            <div id="music-1" className={this.state.mframe[1]} onClick={() =>this.handleClickMusic(1)}>
-              <img className={this.state.mblur[1]} src={TimeToLove} alt="my only wish"/>
+              <img className={this.state.mblur[0]} src={TimeToLove} alt="my only wish"/>
               <p>Time to love</p>
               <p>October</p>
             </div>
-            <div id="music-2" className={this.state.mframe[2]} onClick={() =>this.handleClickMusic(2)}>
-              <img className={this.state.mblur[2]} src={StayWithMe} alt="my only wish"/>
+            <div id="music-1" className={this.state.mframe[1]} onClick={() =>this.handleClickMusic(1)}>
+              <img className={this.state.mblur[1]} src={StayWithMe} alt="my only wish"/>
               <p>Stay with me</p>
               <p>Sam Smith</p>
             </div>
+            {/* <div id="music-2" className={this.state.mframe[2]} onClick={() =>this.handleClickMusic(2)}>
+              <img className={this.state.mblur[2]} src={StayWithMe} alt="my only wish"/>
+              <p>Stay with me</p>
+              <p>Sam Smith</p>
+            </div> */}
           </div>
           <div className="cb"></div>
         </div>
-        {/* <div id="cross-wrapper">
+        <div id="cross-wrapper">
           <div id="cross2"><span></span></div>
-        </div> */}
-        {/* <div id="style-select" >
+        </div>
+        <div id="style-select" >
           <div id="select-box">
-            <div className="btn select">
-              <h3>Choose your style ♬</h3>
+            <div className="">
+              <h3>Style music ♬</h3>
             </div>
-            <div className="btn">
+            {/* <div className="btn">
               <h3>Upload your own style ♬</h3>
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <audio controls></audio>
-            </div>
+            </div> */}
           </div>
           <div id="music-box">
-            <div id="style-0" className={this.state.sframe[0]} onClick={() =>this.handleClickStyle(0)}>
-              <img className={this.state.sblur[0]} src={MyOnlyWish} alt="my only wish"/>
+            <div className="image-wrapper">
+              <img src={MyOnlyWish} alt="my only wish"/>
               <p>My Only Wish</p>
+              <p>Britney Spears</p>
             </div>
-            <div id="style-1" className={this.state.sfråame[1]} onClick={() =>this.handleClickStyle(1)}>
+            {/* <div id="style-1" className={this.state.sfråame[1]} onClick={() =>this.handleClickStyle(1)}>
               <img className={this.state.sblur[1]} src={MyOnlyWish} alt="my only wish"/>
               <p>My Only Wish</p>
             </div>
@@ -128,9 +124,9 @@ class Demo extends React.Component {
             <div id="style-3" className={this.state.sframe[3]} onClick={() =>this.handleClickStyle(3)}>
               <img className={this.state.sblur[3]} src={MyOnlyWish} alt="my only wish"/>
               <p>My Only Wish</p>
-            </div>
+            </div> */}
           </div>
-        </div> */}
+        </div>
         <div className="cb"></div>
         <div className="arrow-result bounce"></div>
         <div className="audio-result">
