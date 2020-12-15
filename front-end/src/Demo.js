@@ -58,7 +58,7 @@ class Demo extends React.Component {
         <h2>Music Style Transfer Demo</h2>
         <div className="description">
           <p>
-            We accept any song to be transferred with our model that’s already trained with “My Only Wish.” Please upload a song of your choice in wav format here and wait for the output. 
+          The song used for training the style is “My Only Wish” by Britney Spears. The altered songs are Stay with Me” by Sam Smith and “Time To Love” by October. It takes around 5 seconds to generate an output song that is over 2 minutes. In order to remove undesirable noises, some simple post processing was used (i.e., removing sounds that are abnormal to the range of values in the original input). A demo below shows our result.
           </p>
         </div>
         <div id="music-select" >
