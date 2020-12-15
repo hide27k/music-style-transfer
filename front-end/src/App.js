@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Approach from './Approach'
+import Banner from './Banner'
+import Code from './Code'
+import Demo from './Demo'
+import Intro from './Intro'
+import People from './People'
+import Video from './Video'
+import Footer from './Footer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="content">
+        <Banner />
+        <Intro />
+        <Demo />
+        <Approach />
+        <Video />
+        <Code />
+        <People />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App;

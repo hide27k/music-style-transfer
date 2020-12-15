@@ -1,0 +1,28 @@
+#approach {
+  background-color: #ECECEC;
+  text-align: center;
+  padding: 2%;
+}
+
+#approach h2 {
+  font-weight: 600;
+}
+
+#detail {
+  text-align: justify;
+  padding: 0 15%;
+}
+
+#detail p {
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+}
+
+#architecture {
+  width: 960px;
+  height: 540px;
+}
+
+#arch-wrapper {
+  text-align: center;
+}
