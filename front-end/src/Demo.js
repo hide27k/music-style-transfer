@@ -24,7 +24,7 @@ class Demo extends React.Component {
         2: "off"
       },
       audio: TimeToLoveNoiseless,
-      title: "My Only Wish - Britney Spears"
+      title: "Time to Love - October"
     }
   }
 
