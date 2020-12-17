@@ -26,3 +26,8 @@
 #arch-wrapper {
   text-align: center;
 }
+
+.spectrogram {
+  display: inline-block;
+  text-align: center;
+}
