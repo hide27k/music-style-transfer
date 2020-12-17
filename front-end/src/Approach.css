@@ -1,5 +1,5 @@
 #approach {
-  background-color: #ECECEC;
+  background-color: white;
   text-align: center;
   padding: 2%;
 }
@@ -19,7 +19,7 @@
 }
 
 #architecture {
-  width: 960px;
+  width: 100%;
   height: 540px;
 }
 

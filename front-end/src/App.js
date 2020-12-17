@@ -16,8 +16,8 @@ class App extends Component {
         <Banner />
         <Intro />
         <Demo />
-        <Approach />
         <Video />
+        <Approach />
         <Code />
         <People />
         <Footer />

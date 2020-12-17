@@ -64,7 +64,7 @@ class Demo extends React.Component {
         <div id="music-select" >
           <div id="select-box">
             <div className="">
-              <h3>Choose your music ♫</h3>
+              <h3>Choose a Input Music ♫</h3>
             </div>
             {/* <div className="btn">
               <h3>Upload your own music ♫</h3>
@@ -98,7 +98,7 @@ class Demo extends React.Component {
         <div id="style-select" >
           <div id="select-box">
             <div className="">
-              <h3>Style music ♬</h3>
+              <h3>Style Music ♬</h3>
             </div>
             {/* <div className="btn">
               <h3>Upload your own style ♬</h3>
@@ -130,6 +130,9 @@ class Demo extends React.Component {
         <div className="cb"></div>
         <div className="arrow-result bounce"></div>
         <div className="audio-result">
+          <h3>
+            Output Music
+          </h3>
           <p>
             {this.state.title}
           </p>
