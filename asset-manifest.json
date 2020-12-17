@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/music-style-transfer/static/css/main.660529d9.chunk.css",
-    "main.js": "/music-style-transfer/static/js/main.c703610a.chunk.js",
-    "main.js.map": "/music-style-transfer/static/js/main.c703610a.chunk.js.map",
+    "main.css": "/music-style-transfer/static/css/main.97842486.chunk.css",
+    "main.js": "/music-style-transfer/static/js/main.ad0c54cf.chunk.js",
+    "main.js.map": "/music-style-transfer/static/js/main.ad0c54cf.chunk.js.map",
     "runtime-main.js": "/music-style-transfer/static/js/runtime-main.7d345095.js",
     "runtime-main.js.map": "/music-style-transfer/static/js/runtime-main.7d345095.js.map",
     "static/js/2.3265f21a.chunk.js": "/music-style-transfer/static/js/2.3265f21a.chunk.js",
@@ -10,15 +10,18 @@
     "static/js/3.f57fc2fe.chunk.js": "/music-style-transfer/static/js/3.f57fc2fe.chunk.js",
     "static/js/3.f57fc2fe.chunk.js.map": "/music-style-transfer/static/js/3.f57fc2fe.chunk.js.map",
     "index.html": "/music-style-transfer/index.html",
-    "static/css/main.660529d9.chunk.css.map": "/music-style-transfer/static/css/main.660529d9.chunk.css.map",
+    "static/css/main.97842486.chunk.css.map": "/music-style-transfer/static/css/main.97842486.chunk.css.map",
     "static/js/2.3265f21a.chunk.js.LICENSE.txt": "/music-style-transfer/static/js/2.3265f21a.chunk.js.LICENSE.txt",
     "static/media/Ask_permission.ac51a1e0.svg": "/music-style-transfer/static/media/Ask_permission.ac51a1e0.svg",
     "static/media/architecture.1a7681c0.jpg": "/music-style-transfer/static/media/architecture.1a7681c0.jpg",
     "static/media/banner.38dfe302.mov": "/music-style-transfer/static/media/banner.38dfe302.mov",
+    "static/media/blues.d181c30b.png": "/music-style-transfer/static/media/blues.d181c30b.png",
     "static/media/hide.f1e760f5.jpg": "/music-style-transfer/static/media/hide.f1e760f5.jpg",
+    "static/media/jazz.bc5bfea4.png": "/music-style-transfer/static/media/jazz.bc5bfea4.png",
     "static/media/my_only_wish.b360aec5.jpg": "/music-style-transfer/static/media/my_only_wish.b360aec5.jpg",
     "static/media/now_playing.6d9f77a2.gif": "/music-style-transfer/static/media/now_playing.6d9f77a2.gif",
     "static/media/paul.2a636bd1.jpg": "/music-style-transfer/static/media/paul.2a636bd1.jpg",
+    "static/media/rock.03a07210.png": "/music-style-transfer/static/media/rock.03a07210.png",
     "static/media/sherry.0ed285cf.jpg": "/music-style-transfer/static/media/sherry.0ed285cf.jpg",
     "static/media/stay_diret_style.1fe79057.wav": "/music-style-transfer/static/media/stay_diret_style.1fe79057.wav",
     "static/media/stay_gen.82c84366.wav": "/music-style-transfer/static/media/stay_gen.82c84366.wav",
@@ -30,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d345095.js",
     "static/js/2.3265f21a.chunk.js",
-    "static/css/main.660529d9.chunk.css",
-    "static/js/main.c703610a.chunk.js"
+    "static/css/main.97842486.chunk.css",
+    "static/js/main.ad0c54cf.chunk.js"
   ]
 }
