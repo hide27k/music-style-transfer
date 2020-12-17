@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/music-style-transfer/static/css/main.e6698ae4.chunk.css",
-    "main.js": "/music-style-transfer/static/js/main.9321111e.chunk.js",
-    "main.js.map": "/music-style-transfer/static/js/main.9321111e.chunk.js.map",
+    "main.css": "/music-style-transfer/static/css/main.bb2dbcb3.chunk.css",
+    "main.js": "/music-style-transfer/static/js/main.6c07d1ba.chunk.js",
+    "main.js.map": "/music-style-transfer/static/js/main.6c07d1ba.chunk.js.map",
     "runtime-main.js": "/music-style-transfer/static/js/runtime-main.7d345095.js",
     "runtime-main.js.map": "/music-style-transfer/static/js/runtime-main.7d345095.js.map",
     "static/js/2.3265f21a.chunk.js": "/music-style-transfer/static/js/2.3265f21a.chunk.js",
@@ -10,13 +10,12 @@
     "static/js/3.f57fc2fe.chunk.js": "/music-style-transfer/static/js/3.f57fc2fe.chunk.js",
     "static/js/3.f57fc2fe.chunk.js.map": "/music-style-transfer/static/js/3.f57fc2fe.chunk.js.map",
     "index.html": "/music-style-transfer/index.html",
-    "static/css/main.e6698ae4.chunk.css.map": "/music-style-transfer/static/css/main.e6698ae4.chunk.css.map",
+    "static/css/main.bb2dbcb3.chunk.css.map": "/music-style-transfer/static/css/main.bb2dbcb3.chunk.css.map",
     "static/js/2.3265f21a.chunk.js.LICENSE.txt": "/music-style-transfer/static/js/2.3265f21a.chunk.js.LICENSE.txt",
     "static/media/Ask_permission.ac51a1e0.svg": "/music-style-transfer/static/media/Ask_permission.ac51a1e0.svg",
     "static/media/architecture.1a7681c0.jpg": "/music-style-transfer/static/media/architecture.1a7681c0.jpg",
     "static/media/banner.38dfe302.mov": "/music-style-transfer/static/media/banner.38dfe302.mov",
     "static/media/hide.f1e760f5.jpg": "/music-style-transfer/static/media/hide.f1e760f5.jpg",
-    "static/media/mozart.2e8b7602.jpg": "/music-style-transfer/static/media/mozart.2e8b7602.jpg",
     "static/media/my_only_wish.b360aec5.jpg": "/music-style-transfer/static/media/my_only_wish.b360aec5.jpg",
     "static/media/now_playing.6d9f77a2.gif": "/music-style-transfer/static/media/now_playing.6d9f77a2.gif",
     "static/media/paul.2a636bd1.jpg": "/music-style-transfer/static/media/paul.2a636bd1.jpg",
@@ -31,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d345095.js",
     "static/js/2.3265f21a.chunk.js",
-    "static/css/main.e6698ae4.chunk.css",
-    "static/js/main.9321111e.chunk.js"
+    "static/css/main.bb2dbcb3.chunk.css",
+    "static/js/main.6c07d1ba.chunk.js"
   ]
 }
