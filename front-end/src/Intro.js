@@ -1,4 +1,4 @@
-import Mozart from './mozart.jpg';
+import StayWithMe from './stay_with_me.jpg';
 import MyOnlyWish from './my_only_wish.jpg';
 import Questionmark from './Ask_permission.svg';
 import './Intro.css';
@@ -18,9 +18,9 @@ function Intro() {
         </p>
       </div>
       <div className="box">
-        <img id="sample-img-1" src={MyOnlyWish} alt="my only wish"/>
+        <img id="sample-img-1" src={StayWithMe} alt="my only wish"/>
         <div id="cross"><span></span></div>
-        <img id="sample-img-2" src={Mozart} alt="mozart"/>
+        <img id="sample-img-2" src={MyOnlyWish} alt="mozart"/>
         <div id="equal"><span></span></div>
         <img id="question" src={Questionmark} alt="question mark"/>
       </div>
