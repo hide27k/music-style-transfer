@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/music-style-transfer/static/css/main.ddd8eabb.chunk.css",
-    "main.js": "/music-style-transfer/static/js/main.50c1cf90.chunk.js",
-    "main.js.map": "/music-style-transfer/static/js/main.50c1cf90.chunk.js.map",
+    "main.js": "/music-style-transfer/static/js/main.c52c9de4.chunk.js",
+    "main.js.map": "/music-style-transfer/static/js/main.c52c9de4.chunk.js.map",
     "runtime-main.js": "/music-style-transfer/static/js/runtime-main.7d345095.js",
     "runtime-main.js.map": "/music-style-transfer/static/js/runtime-main.7d345095.js.map",
     "static/js/2.3265f21a.chunk.js": "/music-style-transfer/static/js/2.3265f21a.chunk.js",
@@ -18,7 +18,9 @@
     "static/media/banner.38dfe302.mov": "/music-style-transfer/static/media/banner.38dfe302.mov",
     "static/media/blues.d181c30b.png": "/music-style-transfer/static/media/blues.d181c30b.png",
     "static/media/classifier.8c3b192b.png": "/music-style-transfer/static/media/classifier.8c3b192b.png",
+    "static/media/direct_style.1a7279e2.png": "/music-style-transfer/static/media/direct_style.1a7279e2.png",
     "static/media/hide.f1e760f5.jpg": "/music-style-transfer/static/media/hide.f1e760f5.jpg",
+    "static/media/interpolation.b75d7b47.png": "/music-style-transfer/static/media/interpolation.b75d7b47.png",
     "static/media/jazz.bc5bfea4.png": "/music-style-transfer/static/media/jazz.bc5bfea4.png",
     "static/media/mse.73c87a1e.png": "/music-style-transfer/static/media/mse.73c87a1e.png",
     "static/media/my_only_wish.b360aec5.jpg": "/music-style-transfer/static/media/my_only_wish.b360aec5.jpg",
@@ -37,6 +39,6 @@
     "static/js/runtime-main.7d345095.js",
     "static/js/2.3265f21a.chunk.js",
     "static/css/main.ddd8eabb.chunk.css",
-    "static/js/main.50c1cf90.chunk.js"
+    "static/js/main.c52c9de4.chunk.js"
   ]
 }
