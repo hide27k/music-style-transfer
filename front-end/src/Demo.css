@@ -9,11 +9,11 @@
 }
 
 #music-select {
-  padding: 0 11%;
+  padding: 0 15%;
 }
 
 #style-select {
-  padding: 0 11%;
+  padding: 0 15%;
 }
 
 #select-box {
@@ -30,14 +30,14 @@
 
 #music-box {
   float: right;
-  width: 750px;
+  width: 550px;
 }
 
 .image-wrapper {
   width: 150px;
   height: 150px;
   display: inline-block;
-  margin: 4%;
+  margin: 4% 10%;
 }
 
 .btn {
@@ -63,7 +63,15 @@
 }
 
 #cross-wrapper {
-  margin-left: 21%;
+  width: 70%;
+  padding-left: 29%;
+}
+
+@media screen and (max-width: 1350px) {
+  #cross-wrapper {
+    width: 70%;
+    padding-left: 27%;
+  }
 }
 
 #cross2 {

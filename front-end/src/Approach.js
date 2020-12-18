@@ -7,6 +7,8 @@ import Blues from './blues.png';
 import Classifier from './classifier.png';
 import MSE from './mse.png';
 import AudioGenerator from './audio_generator.png';
+import Interpolation from './interpolation.png';
+import DirectStyle from './direct_style.png';
 import './Approach.css'
 
 function Approach() {
@@ -76,7 +78,7 @@ function Approach() {
         Following is the graph of the training loss:
         </p>
 
-        <img src={Classifier} class="plots"/>
+        <img src={Classifier} className="plots" alt="classifier train loss"/>
 
         <h4>2. Feature Extractor</h4>
         <p>
@@ -91,7 +93,7 @@ function Approach() {
         Following is the graph of the training loss:
         </p>
 
-        <img src={MSE} class="plots" />
+        <img src={MSE} className="plots" alt="MSE train loss"/>
 
         <h4>3. Generator</h4>
         <p>
@@ -103,7 +105,7 @@ function Approach() {
         Following is the graph of the training loss:
         </p>
 
-        <img src={AudioGenerator} class="plots" />
+        <img src={AudioGenerator} className="plots" alt="audio generator train loss" />
 
         <h3>Additional Attempts and Considerations</h3>
         <p>
@@ -118,15 +120,15 @@ function Approach() {
         2. A more bold attempt was to just change the input directly by comparing its features with those of the style audio. We first tried to compare based on spectrograms. However, only using spectrograms presents the problem of too much variation on the patterns among the files that are not possible to deal with. An example is shown below with 3 spectrograms of 3 songs in different genres.
         </p>
 
-        <div class="spectrogram">
+        <div className="spectrogram">
           <img src={Rock} alt="rock"/>
           <p>Rock</p>
         </div>
-        <div class="spectrogram" >
+        <div className="spectrogram" >
           <img src={Jazz} alt="jazz"/>
           <p>Jazz</p>
         </div>
-        <div class="spectrogram">
+        <div className="spectrogram">
           <img src={Blues} alt="blues"/>
           <p>Blues</p>
         </div>
@@ -139,9 +141,17 @@ function Approach() {
           <source src={DiretStyle} />
         </audio>
 
+        <p>Following is the graph of the training loss:</p>
+
+        <img src={DirectStyle} className="plots" alt="direct style train loss" />
+
         <p>
           3. Another attempt was generating 100 notes per second and interpolating points in-between. However, this yields monotonous outputs that did not make sense.
         </p>
+
+        <p>Following is the graph of the training loss:</p>
+
+        <img src={Interpolation} className="plots" alt="interpolation train loss"/>
 
         <h3>Evaluations and Result</h3>
         <p>
